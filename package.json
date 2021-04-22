@@ -1,26 +1,16 @@
 {
   "name": "ideia-unica-node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robinhosjc/ideia-unica-node.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/robinhosjc/ideia-unica-node/issues"
-  },
-  "homepage": "https://github.com/robinhosjc/ideia-unica-node#readme",
   "dependencies": {
-    "next": "^10.0.5",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "next": "10.1.3",
+    "next-pwa": "^3.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   }
 }
